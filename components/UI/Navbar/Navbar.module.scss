@@ -1,0 +1,25 @@
+@use '../../../styles/utilities' as u;
+
+.Navbar {
+    @include u.container;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: {
+        family: u.$f_Mono;
+        weight: bold;
+        size: 1.2rem;
+    }
+    padding: {
+        left: 1rem;
+        right: 1rem;
+        bottom: 0.5rem;
+    }
+    border-bottom: 0.1rem u.$c_Accent solid;
+
+    a {
+        display: flex;
+        gap: 0.5rem;
+    }
+}

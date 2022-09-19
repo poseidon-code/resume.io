@@ -1,8 +1,13 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import '../styles/globals.scss';
+import type { AppProps } from 'next/app';
+import DATA from '../data.json';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+import Layout from '../components/UI/Layout/Layout';
 
-export default MyApp
+export default ({ Component, pageProps }: AppProps) => {
+    return (
+        <Layout name={DATA.name}>
+            <Component {...pageProps} />
+        </Layout>
+    );
+};

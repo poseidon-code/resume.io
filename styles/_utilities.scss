@@ -1,0 +1,11 @@
+// fonts
+$f_Mono: 'JetBrains Mono', monospace;
+$f_Sans: 'IBM Plex Sans Condensed', sans-serif;
+
+// color theme
+@import './colors/arcDark';
+
+@mixin container {
+    margin: 0 auto;
+    max-width: 100rem;
+}
