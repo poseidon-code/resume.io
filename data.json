@@ -1,5 +1,10 @@
 {
     "name": "Pritam Halder",
     "url": "https://pritamh.netlify.app",
-    "pdf": "Resume - Pritam Halder.pdf"
+    "pdf": "Resume - Pritam Halder.pdf",
+    "designation": "Aspiring Software Developer",
+    "details": {
+        "email": "pritamhalder.portfolio@gmail.com",
+        "location": "Kolkata, India"
+    }
 }
