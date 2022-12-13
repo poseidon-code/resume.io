@@ -11,7 +11,6 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
-    font-family: u.$f_Mono;
 }
 
 body {
@@ -22,6 +21,7 @@ body {
     font-size: 2rem;
     background-color: u.$c_Background;
     color: u.$c_Text;
+    font-family: u.$f_Mono;
 
     #__next {
         display: flex;
