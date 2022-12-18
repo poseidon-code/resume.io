@@ -6,5 +6,10 @@
     "details": {
         "email": "pritamhalder.portfolio@gmail.com",
         "location": "Kolkata, India"
+    },
+
+    "about": {
+        "text": "I am an aspiring software developer specialising in frontend and backend web technologies. I love to dabble with new and upcoming web technologies and provide solutions to real world problems. Currently, I am learning Go and its design principles with gRPC framework and GraphQL technologies.",
+        "quote": "The most damaging phrase in the language is - it's always been done this way"
     }
 }
