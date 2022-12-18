@@ -1,25 +1,19 @@
 import styles from './Navbar.module.scss';
 
-type Props = {
-    link?: {
-        url: string;
-        text: string;
-    };
-    download: string;
-};
+import DATA from '../../../data.json';
 
-const Navbar = (props: Props): JSX.Element => {
+const Navbar = (): JSX.Element => {
     return (
         <nav className={styles.Navbar}>
-            {props.link ? (
-                <a href={props.link.url} target='_blank' rel='noopener noreferrer'>
+            {DATA.url ? (
+                <a href={DATA.url} target='_blank' rel='noopener noreferrer'>
                     <i className='fa-regular fa-arrow-up-right-from-square'></i>
-                    {props.link.text}
+                    Portfolio
                 </a>
             ) : (
                 'Resume'
             )}
-            <a href={props.download} download>
+            <a href={DATA.pdf} download>
                 <i className='fa-regular fa-file-arrow-down'></i>
                 PDF
             </a>

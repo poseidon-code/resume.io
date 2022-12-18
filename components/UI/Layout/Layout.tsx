@@ -1,9 +1,10 @@
 import Head from 'next/head';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Footer/Footer';
 
 import DATA from '../../../data.json';
+
+import Navbar from '../Navbar/Navbar';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 type Props = {
     children: React.ReactNode;
@@ -15,7 +16,7 @@ const Layout = ({ children }: Props): JSX.Element => {
             <Head>
                 <title>{`Resume | ${DATA.name}`}</title>
             </Head>
-            <Navbar download={DATA.pdf} link={{ url: DATA.url, text: 'Portfolio' }} />
+            <Navbar />
             <Header />
             <main>{children}</main>
             <Footer />
