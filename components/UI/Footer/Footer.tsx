@@ -1,9 +1,12 @@
 import styles from './Footer.module.scss';
 
-type Props = {
-    content: JSX.Element;
-};
+import DATA from '../../../data.json';
 
-const Footer = ({ content }: Props): JSX.Element => <footer className={styles.Footer}>{content}</footer>;
+const Footer = (): JSX.Element => (
+    <footer className={styles.Footer}>
+        <i className='fa-regular fa-copyright'></i>
+        &nbsp;{DATA.name} {new Date().getFullYear()}
+    </footer>
+);
 
 export default Footer;

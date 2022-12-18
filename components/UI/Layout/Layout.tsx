@@ -18,14 +18,7 @@ const Layout = ({ children }: Props): JSX.Element => {
             <Navbar download={DATA.pdf} link={{ url: DATA.url, text: 'Portfolio' }} />
             <Header />
             <main>{children}</main>
-            <Footer
-                content={
-                    <>
-                        <i className='fa-regular fa-copyright'></i>
-                        &nbsp;{DATA.name} 2022
-                    </>
-                }
-            />
+            <Footer />
         </>
     );
 };
