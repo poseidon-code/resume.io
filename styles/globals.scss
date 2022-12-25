@@ -13,6 +13,10 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+*::selection {
+    background-color: u.$c_Selection;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -57,11 +61,12 @@ a {
 
 @include u.print {
     :root {
-        font-size: 8px;
+        font-size: 6px;
     }
 
     * {
         color: black !important;
+        border-color: black !important;
         background-color: white !important;
     }
 }
