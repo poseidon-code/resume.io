@@ -15,7 +15,9 @@ const Header = (): JSX.Element => {
                 <a href={DATA.url} target='_blank' rel='noopener noreferrer'>
                     {DATA.url.split('//')[1]}
                 </a>
+                <b>&bull;</b>
                 <a href={`mailto:${DATA.details.email}`}>{DATA.details.email}</a>
+                <b>&bull;</b>
                 <span>{DATA.details.location}</span>
             </p>
         </header>
