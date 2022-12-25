@@ -49,4 +49,8 @@
             }
         }
     }
+
+    @include u.print {
+        border-width: 1pt;
+    }
 }

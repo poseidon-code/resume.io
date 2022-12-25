@@ -11,4 +11,8 @@
     }
     padding: 0.5rem 1rem;
     border-top: 0.1rem u.$c_Accent solid;
+
+    @include u.print {
+        border-width: 1pt;
+    }
 }
