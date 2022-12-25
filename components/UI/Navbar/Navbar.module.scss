@@ -22,4 +22,10 @@
         display: flex;
         gap: 0.5rem;
     }
+
+    @include u.print {
+        & {
+            display: none;
+        }
+    }
 }
