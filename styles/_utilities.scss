@@ -15,3 +15,9 @@ $f_Sans: 'IBM Plex Sans Condensed', sans-serif;
         @content;
     }
 }
+
+@mixin print {
+    @media only print {
+        @content;
+    }
+}

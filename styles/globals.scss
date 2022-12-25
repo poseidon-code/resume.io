@@ -54,3 +54,14 @@ a {
         color: u.$c_Text;
     }
 }
+
+@include u.print {
+    :root {
+        font-size: 8px;
+    }
+
+    * {
+        color: black !important;
+        background-color: white !important;
+    }
+}
