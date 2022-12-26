@@ -1,5 +1,6 @@
 import styles from './Header.module.scss';
 
+import { trimURL } from '../../../utilities';
 import DATA from '../../../data.json';
 
 const Header = (): JSX.Element => {
@@ -13,7 +14,7 @@ const Header = (): JSX.Element => {
             <span className={styles.designation}>{DATA.designation}</span>
             <p className={styles.details}>
                 <a href={DATA.url} target='_blank' rel='noopener noreferrer'>
-                    {DATA.url.split('//')[1]}
+                    {trimURL(DATA.url)}
                 </a>
                 <b>&bull;</b>
                 <a href={`mailto:${DATA.details.email}`}>{DATA.details.email}</a>
