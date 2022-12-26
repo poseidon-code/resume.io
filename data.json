@@ -11,5 +11,12 @@
     "about": {
         "text": "I am an aspiring software developer specialising in frontend and backend web technologies. I love to dabble with new and upcoming web technologies and provide solutions to real world problems. Currently, I am learning Go and its design principles with gRPC framework and GraphQL technologies.",
         "quote": "The most damaging phrase in the language is - it's always been done this way"
+    },
+
+    "technical_skills": {
+        "programming_languages": ["Python", "Go", "JavaScript", "TypeScript", "C++", "Java"],
+        "frameworks": ["NextJs", "ReactJs", "Node", "Express", "Selenium", "Redux", "GraphQL", "gRPC"],
+        "technologies": ["HTML5", "CSS3", "SASS", "MongoDB", "MySQL", "Firebase"],
+        "tools": ["Git", "Github", "Netlify", "Visual Studio Code", "Linux", "Nginx", "Docker"]
     }
 }

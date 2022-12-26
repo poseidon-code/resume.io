@@ -59,6 +59,21 @@ a {
     }
 }
 
+.title {
+    font: {
+        family: u.$f_Sans;
+        weigth: 700;
+        size: 3rem;
+        color: u.$c_Text;
+    }
+    border-bottom: 0.3rem u.$c_Accent solid;
+    margin-bottom: 1rem;
+
+    @include u.print {
+        border-width: 2pt;
+    }
+}
+
 @include u.print {
     :root {
         font-size: 6px;

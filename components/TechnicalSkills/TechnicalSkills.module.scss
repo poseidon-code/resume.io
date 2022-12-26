@@ -1,0 +1,33 @@
+@use '../../styles/utilities' as u;
+
+.TechnicalSkills {
+    h4 {
+        font: {
+            size: 2.2rem;
+            family: u.$f_Sans;
+            weight: 700;
+        }
+
+        @include u.print {
+            font: {
+                weight: 600;
+            }
+        }
+    }
+
+    span {
+        font: {
+            size: 1.5rem;
+            family: u.$f_Mono;
+            weight: 200;
+        }
+
+        @include u.print {
+            font: {
+                family: u.$f_Sans;
+                weight: 400;
+                size: 1.8rem;
+            }
+        }
+    }
+}
