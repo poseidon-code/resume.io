@@ -1,4 +1,4 @@
-@use '../../styles/utilities' as u;
+@use "../../styles/utilities" as u;
 
 .TechnicalSkills {
     h4 {
@@ -19,7 +19,7 @@
         font: {
             size: 1.5rem;
             family: u.$f_Mono;
-            weight: 200;
+            weight: 300;
         }
 
         @include u.print {
