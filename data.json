@@ -18,5 +18,11 @@
         "frameworks": ["NextJs", "ReactJs", "Node", "Express", "Selenium", "Redux", "GraphQL", "gRPC"],
         "technologies": ["HTML5", "CSS3", "SASS", "MongoDB", "MySQL", "Firebase"],
         "tools": ["Git", "Github", "Netlify", "Visual Studio Code", "Linux", "Nginx", "Docker"]
-    }
+    },
+
+    "socials": [
+        { "link": "https://pritamh.netlify.app", "text": "pritamh.dev" },
+        { "link": "https://github.com/poseidon-code", "text": "github.com/poseidon-code" },
+        { "link": "https://https://www.linkedin.com/in/pritamhalder0506", "text": "linkedin.com/pritamhalder" }
+    ]
 }
