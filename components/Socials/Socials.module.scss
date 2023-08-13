@@ -1,0 +1,21 @@
+@use "../../styles/utilities" as u;
+
+.Socials {
+    ul {
+        list-style: none;
+        li {
+            a {
+                font: {
+                    family: u.$f_Mono;
+                    style: italic;
+                    size: 1.6rem;
+                    weight: 300;
+                }
+                i {
+                    font-size: 1.4rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+}
