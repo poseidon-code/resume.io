@@ -1,13 +1,13 @@
 // fonts
-$f_Mono: 'JetBrains Mono', monospace;
-$f_Sans: 'IBM Plex Sans Condensed', sans-serif;
+$f_Mono: "JetBrains Mono", monospace;
+$f_Sans: "IBM Plex Sans Condensed", sans-serif;
 
 // color theme
-@import './colors/arcDark';
+@import "./colors/arcDark";
 
 @mixin container {
     margin: 0 auto;
-    max-width: 120rem;
+    max-width: 100rem;
 }
 
 @mixin mobile {
