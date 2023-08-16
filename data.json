@@ -24,5 +24,16 @@
         { "link": "https://pritamh.netlify.app", "text": "pritamh.dev" },
         { "link": "https://github.com/poseidon-code", "text": "github.com/poseidon-code" },
         { "link": "https://https://www.linkedin.com/in/pritamhalder0506", "text": "linkedin.com/pritamhalder" }
+    ],
+
+    "achievements": [
+        {
+            "link": "https://www.hackerearth.com/challenges/hackathon/stackhack-20/",
+            "text": "Placed 2nd (2/1270) in StackHack 2.0 International Hackathon organised by HackerEarth."
+        },
+        {
+            "link": "https://www.hackerearth.com/challenges/hackathon/hackerearth-hackcovid-2/",
+            "text": "Placed 5th (5/2818) in HackCOVID 2.0 International Hackathon organised by HackerEarth."
+        }
     ]
 }
