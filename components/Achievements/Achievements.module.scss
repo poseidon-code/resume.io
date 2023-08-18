@@ -1,0 +1,28 @@
+@use "../../styles/utilities" as u;
+
+.Achievements {
+    ul {
+        list-style: none;
+        font-family: u.$f_Mono;
+        font-size: 1.6rem;
+
+        li {
+            display: inline-flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-bottom: 1rem;
+
+            a {
+                margin-right: 1rem;
+
+                i {
+                    font-size: 1.4rem;
+                }
+            }
+
+            span {
+                font-style: italic;
+            }
+        }
+    }
+}
