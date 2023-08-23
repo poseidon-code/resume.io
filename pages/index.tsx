@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import TechnicalSkills from "../components/TechnicalSkills/TechnicalSkills";
 import Socials from "../components/Socials/Socials";
 import Achievements from "../components/Achievements/Achievements";
+import Interests from "../components/Interests/Interests";
 
 const Home: NextPage = () => {
     return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
                 <TechnicalSkills />
                 <Socials />
                 <Achievements />
+                <Interests />
             </section>
             <section className={styles.Right}></section>
         </>
