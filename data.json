@@ -37,5 +37,11 @@
         }
     ],
 
-    "interests": ["Painting", "Graphics Design", "Gaming", "Music", "Cars", "Linux Ricing", "Reading"]
+    "interests": ["Painting", "Graphics Design", "Gaming", "Music", "Cars", "Linux Ricing", "Reading"],
+
+    "soft_skills": [
+        "Efficient in working and adapting to new locations with new teams.",
+        "Love to teach and help new teammates makes me confident with my skills.",
+        "Motivated to learning and gaining corporate experience."
+    ]
 }
