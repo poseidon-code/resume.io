@@ -1,0 +1,19 @@
+@use "../../styles/utilities" as u;
+
+.SoftSkills {
+    ul {
+        font: {
+            size: 1.6rem;
+            family: u.$f_Mono;
+            style: italic;
+            weight: 400;
+        }
+
+        list-style: square;
+        margin-left: 2rem;
+
+        li {
+            margin-bottom: 1rem;
+        }
+    }
+}
