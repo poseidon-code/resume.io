@@ -8,8 +8,8 @@ const Socials = (): JSX.Element => {
             <h2 className='title'>SOCIAL LINKS</h2>
             <ul>
                 {DATA.socials.map((social: { link: string; text: string }, i: number) => (
-                    <li>
-                        <a key={`social-${i}`} href={social.link} target='_blank' rel='noopener noreferrer'>
+                    <li key={`social-${i}`}>
+                        <a href={social.link} target='_blank' rel='noopener noreferrer'>
                             <i className='fa-regular fa-link-horizontal'></i>
                             {social.text}
                         </a>

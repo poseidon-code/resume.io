@@ -9,8 +9,8 @@ const TechnicalSkills = (): JSX.Element => {
             <h2 className='title'>TECHNICAL SKILLS</h2>
             {Object.keys(DATA.technical_skills).map((key: string, i: number) => {
                 return (
-                    <>
-                        <h4 key={`ts-group-${key}-${i}`}>{keyCapitalise(key)}</h4>
+                    <div key={`ts-group-${key}-${i}`}>
+                        <h4>{keyCapitalise(key)}</h4>
                         {DATA.technical_skills[key as keyof typeof DATA.technical_skills].map((ts: string, j: number) =>
                             DATA.technical_skills[key as keyof typeof DATA.technical_skills].length !== j + 1 ? (
                                 <span key={`ts-item-${key}-${j}`}> {ts} &bull;</span>
@@ -18,7 +18,7 @@ const TechnicalSkills = (): JSX.Element => {
                                 <span key={`ts-item-${key}-${j}`}> {ts}</span>
                             )
                         )}
-                    </>
+                    </div>
                 );
             })}
         </article>
