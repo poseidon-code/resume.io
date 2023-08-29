@@ -43,5 +43,22 @@
         "Efficient in working and adapting to new locations with new teams.",
         "Love to teach and help new teammates makes me confident with my skills.",
         "Motivated to learning and gaining corporate experience."
+    ],
+
+    "education": [
+        {
+            "institution": "Acharya Prafulla Chandra College",
+            "board": "(WBSU)",
+            "course": "BSc. Computer Science (Honors) : 2018 - 2021",
+            "completion": "Graduated - August 2021",
+            "score": "CGPA: 8.83"
+        },
+        {
+            "institution": "Kendriya Vidyalaya",
+            "board": "(CBSE)",
+            "course": "PCM with Computer Science",
+            "completion": "Graduated - May 2018",
+            "score": "Percentage: 72.3%"
+        }
     ]
 }
