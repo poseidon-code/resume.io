@@ -1,0 +1,31 @@
+@use "../../styles/utilities" as u;
+
+.Education {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        li {
+            font-family: u.$f_Mono;
+            h3 {
+                font-size: 2rem;
+            }
+            span {
+                font-size: 1.6rem;
+                font-style: italic;
+                font-weight: 200;
+            }
+            p {
+                font-weight: 200;
+                font-size: 1.6rem;
+
+                b {
+                    color: u.$c_Accent;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
