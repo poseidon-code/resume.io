@@ -8,6 +8,8 @@ import Achievements from "../components/Achievements/Achievements";
 import Interests from "../components/Interests/Interests";
 import SoftSkills from "../components/SoftSkills/Softskills";
 
+import Education from "../components/Education/Education";
+
 const Home: NextPage = () => {
     return (
         <>
@@ -19,7 +21,9 @@ const Home: NextPage = () => {
                 <Interests />
                 <SoftSkills />
             </section>
-            <section className={styles.Right}></section>
+            <section className={styles.Right}>
+                <Education />
+            </section>
         </>
     );
 };
