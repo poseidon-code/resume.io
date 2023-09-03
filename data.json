@@ -60,5 +60,52 @@
             "completion": "Graduated - May 2018",
             "score": "Percentage: 72.3%"
         }
+    ],
+
+    "experiences": [
+        {
+            "name": "HackCOVID 2.0",
+            "type": "Hackathon",
+            "period": "May 2021 - July 2021",
+            "organisation": "Organisation - HackerErarth : Remote",
+            "url": {
+                "text": "hackerearth.com/hackcovid2",
+                "link": "https://www.hackerearth.com/challenges/hackathon/hackerearth-hackcovid-2/"
+            },
+            "description": "An application that allows infected individuals/families and their caregivers to easily avail themselves of multiple services/offerings by volunteers in their vicinity or across the country.",
+            "stack": [
+                {
+                    "type": "Backend",
+                    "technologies": ["JavaScirpt", "Node", "MongoDB", "JWT", "RazorPay"],
+                    "points": [
+                        "Designed the entire authentication system using JWT which reduced the response time of a authorised request by 50%.",
+                        "Implemented simple deployment design which reduces the overall complexity of connection between two servers using Netlify and Heroku."
+                    ]
+                },
+                {
+                    "type": "Frontend",
+                    "technologies": ["JavaScirpt", "React", "SASS"],
+                    "points": [
+                        "Laid out the initial design of page routing and data flow through components making the team prepared for implementation.",
+                        "Designed, fixed and ported website styles using Sass providing a structured view of implemented styles helping with better readability."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "cppsecreets.com",
+            "type": "Internship",
+            "period": "October 2019 - December 2019",
+            "organisation": "Designation - C++ Developer : Remote",
+            "url": {
+                "text": "cppsecrets.com/pritamhalder",
+                "link": "https://cppsecrets.com/user/index.php?id=articles&uid=1377"
+            },
+            "description": "Internship as a C++ developer, documenting and testing C++ Boost libraries. Organised and priortised work to complete assignments in a timely and efficient manner.",
+            "points": [
+                "Documented & implemented C++ Boost libraries, more specifically Core libraries, adding to the largest documentation of C++ libraries.",
+                "Accumulating over 4000+ views on all the articles present on the site authored by myself."
+            ]
+        }
     ]
 }
