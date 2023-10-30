@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 import styles from "./Experiences.module.scss";
 
 import DATA from "../../data.json";
@@ -8,7 +10,7 @@ interface Stack {
     points: string[];
 }
 
-interface Experience {
+interface ExperienceBase {
     name: string;
     type: string;
     period: string;
@@ -22,17 +24,24 @@ interface Experience {
     points?: string[];
 }
 
-type Required<T, Keys extends keyof T = keyof T> = Pick<T, Exclude<keyof T, Keys>> &
-    {
-        [K in Keys]-?: Required<Pick<T, K>> & Partial<Pick<T, Exclude<Keys, K>>>;
-    }[Keys];
+interface ExperienceWithStack extends ExperienceBase {
+    stack: Stack[];
+    points?: never;
+}
+
+interface ExperienceWithPoints extends ExperienceBase {
+    stack?: never;
+    points: string[];
+}
+
+type Experience = ExperienceWithStack | ExperienceWithPoints;
 
 const Experiences = (): JSX.Element => {
     return (
         <article className={styles.Experiences}>
             <h2 className='title'>EXPERIENCE</h2>
             <ul>
-                {DATA.experiences.map((e: Required<Experience, "stack" | "points">, i: number) => {
+                {DATA.experiences.map((e: Experience, i: number) => {
                     return (
                         <li key={`experiences-${i}`}>
                             <h3>
@@ -53,7 +62,13 @@ const Experiences = (): JSX.Element => {
                                             <em>
                                                 &nbsp;
                                                 {s.technologies.map((t: string, i: number) =>
-                                                    s.technologies.length - 1 != i ? <>{t} &bull; </> : t
+                                                    s.technologies.length - 1 != i ? (
+                                                        <Fragment key={`experience-technologies-${i}`}>
+                                                            {t} &bull;&nbsp;
+                                                        </Fragment>
+                                                    ) : (
+                                                        t
+                                                    )
                                                 )}
                                             </em>
                                         </span>
