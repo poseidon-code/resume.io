@@ -93,7 +93,7 @@
             ]
         },
         {
-            "name": "cppsecreets.com",
+            "name": "cppsecrets.com",
             "type": "Internship",
             "period": "October 2019 - December 2019",
             "organisation": "Designation - C++ Developer : Remote",
@@ -105,6 +105,61 @@
             "points": [
                 "Documented & implemented C++ Boost libraries, more specifically Core libraries, adding to the largest documentation of C++ libraries.",
                 "Accumulating over 4000+ views on all the articles present on the site authored by myself."
+            ]
+        }
+    ],
+
+    "projects": [
+        {
+            "name": "Portfolio",
+            "technologies": ["NextJs", "Strapi CMS", "GraphQL", "MongoDB", "Sass"],
+            "urls": [
+                {
+                    "text": "pritamh.dev",
+                    "link": "https://pritamh.netlify.app/"
+                }
+            ],
+            "description": "Personal portfolio website designed from scratch using NextJs and Strapi CMS to showcase my skills and projects for potential clients.",
+            "points": [
+                "Made using Next and the data is served using Strapi CMS using MongoDB as database and GraphQL for data queries.",
+                "Used a very colorful design style to make the site unique and yet simple, using SASS for convenience of generating multiple classes with random colors programatically.",
+                "Used Next's API route handling for sending emails from the site.",
+                "Complex data structuring and modification for fetched data using basic JavaScript, reducing dependencies on 3rd-party libraries."
+            ]
+        },
+        {
+            "name": "Identicon",
+            "technologies": ["Go"],
+            "urls": [
+                {
+                    "text": "github.com/identicon",
+                    "link": "https://github.com/poseidon-code/identicon"
+                },
+                {
+                    "text": "github.com/godenticon",
+                    "link": "https://github.com/poseidon-code/godenticon"
+                }
+            ],
+            "description": "Cross-platform CLI program to generate identicons based on some string passed as argument and save as a PNG image. Basically, an unique image generator for identicons.",
+            "points": [
+                "Used only Go's unpar builtin libraries throughout the entire program giving it literally Zero dependency on 3rd-party code, using Go's builtin image library to generate crisp PNG images with low file size.",
+                "Used Go's platform independent cross compiling capability to build and distribute executable for different operating system architectures.",
+                "Intuitive command line interface for ease of use and easy to understand usage documentation, tried to make a standard for generating identicons from hashes."
+            ]
+        },
+        {
+            "name": "ytmp3-dl",
+            "technologies": ["Python", "YouTubeDL"],
+            "urls": [
+                {
+                    "link": "https://github.com/poseidon-code/ytmp3-dl",
+                    "text": "github.com/ytmp3-dl"
+                }
+            ],
+            "description": "A python script that uses yt-dlp to download the audio from any YouTube video/audio link concurrently and converts it to .mp3 format of high quality.",
+            "points": [
+                "Made using Python and yt-dlp python library for downloading YouTube audio from videos and converting them to .mp3 using ffmpeg.",
+                "Parsed and handled command line options. Handled a simple terminal printing design. Packaged the complete software as an usable binary for easier usage."
             ]
         }
     ]
