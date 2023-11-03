@@ -10,6 +10,7 @@ import SoftSkills from "../components/SoftSkills/Softskills";
 
 import Education from "../components/Education/Education";
 import Experiences from "../components/Experiences/Experiences";
+import Projects from "../components/Projects/Projects";
 
 const Home: NextPage = () => {
     return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
             <section className={styles.Right}>
                 <Education />
                 <Experiences />
+                <Projects />
             </section>
         </>
     );
